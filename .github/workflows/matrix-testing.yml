@@ -26,6 +26,8 @@ jobs:
     strategy:
       matrix:
         node-version: [18, 20, 21]
+        needs: python-matrix
+
 
     steps:
       - uses: actions/checkout@v4
