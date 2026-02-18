@@ -1,6 +1,8 @@
 {
   "name": "ci-lab",
   "version": "1.0.0",
+  "description": "Multi-language CI testing project",
+  "main": "stringUtils.js",
   "scripts": {
     "test": "jest"
   },
